@@ -1,8 +1,4 @@
-Sure! Here's a fun and fitting `README.md` for your project:
 
----
-
-````markdown
 # Josh's Opera GX Keyboard Sounds (But Worse™)
 
 This is a **completely useless** Python app that plays **Opera GX keyboard sounds** based on what key you press.
