@@ -1,9 +1,9 @@
 
 # Josh's Opera GX Keyboard Sounds (But Worse™)
 
-This is a **completely useless** Python app that plays **Opera GX keyboard sounds** based on what key you press.
+This is a **completely useless** Python app that plays sounds from **Let's Game It Out... but cursed** mod in Opera GX based on what key you press.
 
-Except it's even better (or worse?) – because Josh **announces** the key you press out loud, using lovingly ~stolen~ extracted `.mp3` files. 🎧
+Except it's even better (or worse?) – because Josh actually **announces** the correct key you press out loud (not like the actual mod, picking it randomly), using ~stolen~ extracted `.mp3` files. 🎧
 
 > ❗ Warning: you can't close the app. There's no UI. No tray icon. No exit button.  
 > To stop it: **RESTART YOUR ENTIRE PC**. 🤭
@@ -21,8 +21,16 @@ Except it's even better (or worse?) – because Josh **announces** the key you p
 
 ## 🚀 How to Use
 
-1. Clone or download this repo.
-2. Run the Python script:
+1. Clone or download this repo:
+```bash
+git clone https://github.com/Vakarux12/JoshKeyboardsounds.git
+cd JoshKeyboardsounds
+```
+3. Install requirements:
+```bash
+pip install pygame pynput pyinstaller
+```
+4. Run the Python script:
 
 ```bash
 python main.py
@@ -42,21 +50,19 @@ pyinstaller --onefile --noconsole --add-data "sounds;sounds" main.py
 
 You **don’t**.
 You **can’t**.
-Just **restart your PC** like a real Josh fan.
+Just **restart your PC**.
 
 ---
 
 ## 🔇 Want to stop it without restarting?
 
-Too bad. You knew what this was.
+Too bad.
 
 ---
 
 ## 🐢 Credits
 
-* Sound files: **Josh’s amazing Opera GX keyboard impressions**
-* Code: You and ChatGPT making bad ideas reality
-* Guilt: 100% yours
+* Sound files: **Let's Game It Out... but cursed** on Opera GX mods
 
 ---
 
