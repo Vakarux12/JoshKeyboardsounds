@@ -1,3 +1,4 @@
+import requests
 import os
 import sys
 import platform
@@ -26,7 +27,7 @@ try:
     with open(VERSION_FILE, "r") as vf:
         __version__ = vf.read().strip()
 except Exception:
-    __version__ = "0.0.0"
+    __version__ = "1.1.0"
 
 UPDATE_URL = "https://raw.githubusercontent.com/Vakarux12/JoshKeyboardsounds/main/VERSION"
 
@@ -76,7 +77,7 @@ def check_for_updates():
                     f"Version {latest} is available. Open download page?",
                 ):
                     webbrowser.open(
-                        "https://github.com/Vakarux12/JoshKeyboardsounds"
+                        f"https://github.com/Vakarux12/JoshKeyboardsounds/releases/download/{latest}/main.exe"
                     )
                 root.destroy()
     except Exception:
